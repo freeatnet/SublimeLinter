@@ -9,7 +9,6 @@ CONFIG = {
     'input_method': INPUT_METHOD_TEMP_FILE
 }
 
-
 class Linter(BaseLinter):
 
     def parse_errors(self, view, errors, lines, errorUnderlines, violationUnderlines, warningUnderlines, errorMessages, violationMessages, warningMessages):

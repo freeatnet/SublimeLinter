@@ -1,3 +1,15 @@
+This fork
+=============
+
+This fork contains a custom linter for Ruby code using `reek` gem. This is currently a WIP version.
+
+To use ruby-reek linter, add the following line to the `sublimelinter_syntax_map` section of your plugin config:
+
+```
+"Ruby": "ruby-reek"
+```
+
+
 SublimeLinter
 =============
 
